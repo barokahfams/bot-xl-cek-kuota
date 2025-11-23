@@ -1,0 +1,8 @@
+version: "3"
+services:
+  xlbot:
+    build: .
+    container_name: xlbot
+    restart: always
+    env_file:
+      - .env
